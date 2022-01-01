@@ -6,6 +6,6 @@ export class ForecastController{
 
     @Get('')
     public getForecastForLoggedUser(_: Request, res: Response): void {
-        res.send({color: "blue"});
+        res.send({color: 'blue'});
     }
 }
